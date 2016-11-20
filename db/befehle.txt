@@ -1,0 +1,5 @@
+CREATE SCHEMA av_avdpool
+    AUTHORIZATION stefan;
+
+GRANT ALL ON SCHEMA av_avgbs TO stefan;
+GRANT USAGE ON SCHEMA av_avgbs TO mspublic;
